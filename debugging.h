@@ -1,6 +1,6 @@
 #ifdef DEBUG
 	#include <stdio.h>
-	#define debug(...) printf(__VA_ARGS__)
+	#define debug printf
 #else
 	#define debug(...)
 #endif
